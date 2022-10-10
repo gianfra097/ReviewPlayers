@@ -1,0 +1,2 @@
+I dati per i privilegi relativi al db si trovano su 
+include/dbconfig.php
