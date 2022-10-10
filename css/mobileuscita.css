@@ -1,0 +1,49 @@
+header{
+		top: 0;
+		position: sticky;   
+		display: flex;
+		padding: 0px 3%;
+		background: linear-gradient(to bottom, #efefef 0%, #a2a2a2 100%); /*Sfondo come header*/
+		font-weight: bold;
+}
+
+nav{
+	position: relative;
+	left: 25px;
+}
+
+.logo img{
+	width: 130%;
+}
+
+.logo{
+	position: relative;
+}
+
+p.backhome{
+	font-size: 15px;
+	max-width: 70%;
+}
+
+p.backout{
+	font-size: 15px;
+	max-width: 70%;
+}
+
+p.modifica{
+	font-size: 15px;
+	max-width: 70%;
+}
+
+p.identifica{
+	top: 39%;
+	left: 30%;
+}
+
+p.notizie{
+	font-size: 15px;
+}
+
+p.reviews{
+	font-size: 15px;
+}

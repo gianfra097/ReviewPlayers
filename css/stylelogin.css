@@ -1,0 +1,139 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/sfondobody.png');  /*Prendo lo sfondo dalla cartella*/
+	background-image: no-repeat;    /*Faccio in modo che lo sfondo non si ripeta*/
+	background-attachment: fixed;     /*Blocco lo sfondo durante lo scorrimento*/
+}
+
+/*---- Blocco l'header durante lo scroll e gli do un colore di sfondo ----*/
+header{
+	top: 0;
+	position: sticky;   /*Serve a bloccare l'header*/
+	display: flex;
+	justify-content: flex-end;  /*Li sposto nella fine della riga*/
+	align-items: center;
+	padding: 0px 3%;
+	background: linear-gradient(to bottom, #efefef 0%, #a2a2a2 100%);
+	min-width: 100px;  /*Larghezza aumentata in modo da non dare problemi allo zoom*/
+	font-weight: bold; 
+}
+
+/*---- Tolgo la sottolineatura dai link, metto il loro colore sul nero e applico il font ----*/
+nav ul li a{
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: none;
+	color: black;
+}
+
+/*---- Inserisco la transizione al passaggio del mouse ----*/
+nav ul li a{
+	transition: all 0.3s ease 0s;
+}
+
+/*---- Colore bianco al passaggio del mouse ----*/
+nav ul li a:hover{
+	color: white;
+}
+
+/*---- Tolgo i pallini stile lista dalla nav ----*/
+nav ul{
+	list-style: none;
+}
+
+/*---- Sistemo gli spazi nella nav ----*/
+nav ul li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+/*---- Sistemo gli spazi delle immagini del logo e dell'admin nella nav ----*/
+.logo{
+	margin-right: auto;
+}
+
+.admin{
+	margin-left: 35px;
+}
+
+a {
+  text-decoration: none; /* Tolgo la sottolineatura da tutti i link*/
+  color: red;
+}
+
+/*---- Sistemo l'arcadebox al centro ----*/
+#arcadein{
+	background: url('../images/arcadein.png') no-repeat center;
+	height: 800px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*---- Sistemo il testo al centro con a capo automatico e spazio di linea ----*/
+#text{
+	font-size: 15px;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	color: black;
+	padding-top: 220px;
+	width: 500px;
+	margin: auto;
+	border: 1px solid transparent;
+	word-break: break-word;
+	line-height: 3;
+}
+
+var .home{
+	color: red;
+}
+
+/*----Posiziono i footer in fondo alla pagina con i vari testi----*/
+
+/*---- Primo footer con "Chi siamo" e la descrizione del sito ----*/
+#footer1{
+	background: #C0C0C0;
+	font-family: 'Montserrat', sans-serif;
+ 	margin: auto;
+ 	padding: 5px 0px;
+    width: 920px;
+    max-width: 100%;
+}
+
+h1#titolo1{
+	margin-top: 0px;
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+p.info1{
+	margin-top: -15px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+/*---- Secondo footer con i copyright e la descrizione del progetto ----*/
+#footer2{  				                 
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+ 	padding: 5px 0;
+    width: 920px;
+    max-width: 100%;
+    margin-top: -0.7%;
+}
+
+h1#titolo2{
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	font-size: 20px;
+
+}
+
+p.info2{
+	color: white;
+	padding-left: 10px;
+}
