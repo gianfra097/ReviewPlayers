@@ -4,3 +4,6 @@ Review Players is a blog dedicated to video game lovers. You will find reviews o
 
 # Home:
 https://github.com/gianfra097/ReviewPlayers/assets/82977399/2ef93b4f-7426-4142-b617-2e4b6ce03ff6
+
+# Recensioni:
+![Recensioni](https://github.com/gianfra097/ReviewPlayers/assets/82977399/bcfd79c7-458f-4336-99b3-d9567002750b)
