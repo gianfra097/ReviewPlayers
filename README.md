@@ -7,3 +7,6 @@ https://github.com/gianfra097/ReviewPlayers/assets/82977399/2ef93b4f-7426-4142-b
 
 # Recensioni:
 ![Recensioni](https://github.com/gianfra097/ReviewPlayers/assets/82977399/bcfd79c7-458f-4336-99b3-d9567002750b)
+
+# News:
+![News](https://github.com/gianfra097/ReviewPlayers/assets/82977399/2bd85572-f842-403d-af01-fc02dbf9c71e)
